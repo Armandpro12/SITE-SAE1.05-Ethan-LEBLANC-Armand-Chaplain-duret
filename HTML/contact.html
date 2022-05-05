@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+	<html lang="fr">
+		<head>
+			<meta charset = "UTF-8">
+			<title> Home </title>
+			<!-- Styles -->
+			<link rel="stylesheet" type="text/css" href="../CSS/stylesContact.css"/>
+		</head>
+		<body>
+			<!--Header with a clickable logo-->
+			<header>
+				<a href="../HTML/home.html"><img src="../IMG/logoIUTMontreuil.png" alt="logo"/></a>
+			</header>
+			<!--Interative nav-->
+			<nav id="navHaut">
+				<a class="navHautGauche" id="home" href="../HTML/home.html">Home</a>
+				<a class="navHautGauche" id="presentation" href="../HTML/presentation.html">Presentation</a>
+				<span id="split">
+					<a class="navHautGauche" id="IUT" href="../HTML/IUT.html"> IUT </a>
+					<a class="navHautGauche" id="fingerprint" href="../HTML/digitalFingerprint.html"> Digital Fingerprint </a>
+					<a class="navHautGauche" id="partner" href="../HTML/partner.html"> Partners </a>
+				</span>
+				<a class="navHautGauche" href="../HTML/contact.html" id="contact">Contact</a>
+
+				<a id="facebook" href="https://fr-fr.facebook.com/IUT.Montreuil/"><img src="../IMG/facebook.png" alt="facebook"/></a>
+				<a href="https://twitter.com/iutdemontreuil?lang=da"><img src="../IMG/twitter.png" alt="twitter"/></a>
+				<a href="https://www.instagram.com/iut_montreuil/?hl=fr"><img src="../IMG/instagram.png" alt="instagram"/></a>
+			</nav>
+			<!--Main with two sections-->
+			<main>
+				<!--Main title-->
+				<h2> This website has been created by two students of Montreuil's IUT : </h2>
+				<!--Left section-->
+				<section id="section1">
+					<h3> Armand Chaplain-Duret </h3>
+
+					<p> He is a first year student, he is 17 and is passionated by coding specifically in JAVA programs 
+					</p>
+					<button id="contact1"> contact Armand! </button>
+					<figure id="flecheContact1">
+						<img src="../IMG/flecheDeploy.png" alt="flecheContactImg1" id="flecheContactImg1"/>
+					</figure>
+					<div id="contactText1">
+						<p> You can contact Armand by sending to him a mail! <br/> To do so enter your email : </p>
+						<form action="#">
+							<input id="input1" type="email" name="email" placeholder="Write your email here !"/>
+							<input id="submit1" type="submit" name="submit1" value="Submit!"/>
+						</form>
+					</div>
+				</section>
+
+				<!--Left section-->
+				<section id="section2">
+					<h3> Ethan Leblanc </h3> 
+
+					<p> He is also a first year student and is also 17. Ethan is passionated by the computer's architecture.</p>
+					<button id="contact2"> contact Ethan! </button>
+					<figure id="flecheContact2">
+						<img src="../IMG/flecheDeploy.png" alt="flecheContactImg2" id="flecheContactImg2"/>
+					</figure>
+					
+					<div id="contactText2">
+						<p>You can contact Ethan by sending to him a mail! <br/> To do so enter your email : </p>
+
+						<form action="#">
+							<input id="input2" type="email" name="email" placeholder="Write your email here !"/>
+							<input id="submit2" type="submit" name="submit2" value="Submit!"/>
+						</form>
+					</div>
+				</section> 
+				<div id="lastText">
+					<p> For each message, we will maybe receive from you, we will happy to answer and this in the shortest time as possible ! </p>
+				</div>
+			</main>
+			<!--Footer with a cliquable logo-->
+			<footer>
+				<a href="../HTML/home.html"><img src="../IMG/logoIUTMontreuil.png" alt="logo"/></a>
+				<p> Creative communs licence-Website realised by Armand Chaplain-Duret and Ethan Leblanc, 2021. </p>
+			</footer>
+			<script type="text/javascript" src="../JAVASCRIPT/contactJS.js"></script>
+		</body>
+	</html>

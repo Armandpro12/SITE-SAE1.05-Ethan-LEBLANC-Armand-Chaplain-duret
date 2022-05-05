@@ -1,0 +1,286 @@
+body {
+	width:1200px;
+	margin:auto;
+	background-color: #2C4F9B;
+	font-family: arial;
+}
+
+/****************************************************/
+/* HEADER */
+/****************************************************/
+
+
+header {
+	display: inline-block;
+	float:  left;
+	margin-left: 0px;
+	width: 130px;
+}
+header img  {
+	width: 100%;
+	border-top-left-radius:40px;
+	border-bottom-left-radius:40px;	
+	animation: width 2s;
+	transition-duration: 0.5s;
+}
+
+header img:hover {
+	width: 130%;
+	opacity: 80%;
+}
+
+/****************************************************/
+/* NAV */
+/****************************************************/
+
+
+#navHaut {
+	background-color: #2C2F9B;
+	border-radius:30px;
+	padding: 18px;
+}	
+.navHautGauche {
+	text-decoration:none;
+	text-transform:uppercase;
+	color:white;
+	transition: font-size 0.5s, opacity 0.5s;
+}
+
+.navHautGauche:hover {
+	font-size: 150%;
+}
+
+
+#navHaut img {
+	width:30px;
+	float: right;
+	animation: width 2s;
+	transition-duration: 2s;
+}
+
+#navHaut img:hover {
+	width: 60px;
+}
+
+#contact {
+	border: solid 1px black;
+	background-color: black;
+	display:inline-block;
+	margin-left: 30px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#split {
+	display: none;
+	font-size: 15px;
+	margin-left: 0px;
+}
+
+#IUT {
+	border: solid grey 1px;
+	background-color: grey;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-right: 1px;
+	padding: 5px;
+}
+
+#fingerprint {
+	background-color: grey;
+	padding: 5px;
+}
+
+#partner {
+	border: solid grey 1px;
+	background-color: grey;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 5px;
+	margin-left: 1px;
+}
+
+#home {
+	border: solid 1px black;
+	background-color: black;
+	display:inline-block;
+	margin-left:290px;
+	margin-right: 30px;
+	padding: 5px;
+	border-radius: 10px;
+
+}
+
+#presentation {
+	border: solid 1px black;
+	background-color: black;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+/****************************************************/
+/* MAIN*/
+/****************************************************/
+
+
+main {
+	background-color: #D8DEF2;
+	height:auto;
+	width: 1150px;
+	margin: auto;
+	border-radius:2px;
+	padding-bottom: 5px;
+}
+main h2 {
+	text-align:center;
+	padding-top:20px;
+	color:#2C4FFF;
+	font-size:50px;
+}
+
+#summary ul {
+	margin-left: 30px;
+}
+
+#summary p {
+	text-align: center;
+	font-weight: bold;
+	font-size: large;
+}
+
+
+.university {
+	padding-top: 10px;
+}
+
+.university h3 {
+	text-align: center;
+	font-weight: 750;
+	font-size: large;
+	text-decoration: underline;
+}
+.university p {
+	margin-left: 60px;
+}
+
+.university span {
+	margin-left: 60px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.university ul {
+	margin-left: 30px;
+}
+
+#logoGoetheUniversity {
+	width: 20%;
+	display: inline-block;
+	margin-right: -6.8px;
+	border: solid 2px lightgrey;
+	background-color: lightgrey;
+
+}
+
+#entreeGoetheUniversity {
+	width: 28%;
+	display: inline-block;
+}
+
+#fig1 {
+	text-align: center;
+}
+
+#fig2{
+	text-align: center;
+}
+
+#fig3{
+	text-align: center;
+}
+
+
+#locationGoetheUniversity {
+	width: 28%;
+}
+
+#environmentGoetheUniversity {
+	width: 38%;
+}
+
+#theNewSchoolLocation {
+	width: 40%;
+}
+#fig4{
+	text-align: center;
+}
+
+#fig5 {
+	text-align: center;
+}
+
+#theNewSchoolLogo {
+	width: 14%;
+	display: inline-block;
+	margin-right: -6.8px;
+}
+
+#theNewSchoolEntree {
+	width: 24.9%;
+	display: inline-block;
+}
+
+#fig6{
+	text-align: center;
+}
+
+#fig7 {
+	text-align: center;
+}
+
+#logoPucRio {
+	width: 10.61%;
+	display: inline-block;
+	margin-right: -6.8px;
+}
+
+#entreePucRio {
+	width: 24.9%;
+	display: inline-block;
+}
+
+#locationPucRio {
+	width: 40%;
+}
+
+/****************************************************/
+/* footer/
+/****************************************************/
+
+
+
+footer {
+	display:  inline-block;
+	width: 1200px;
+	background-color:grey;
+	margin-top:102px;
+	border-radius:40px;
+}
+footer img {
+	width: 10%;
+	display: inline-block;
+	float:  left;
+	border-top-left-radius:40px;
+	border-bottom-left-radius:40px;
+	animation: width 2s;
+	transition-duration: 0.5s;
+}
+
+footer img:hover {
+	width: 12%;
+}
+footer p {
+	display:inline-block;
+	float: right;
+	margin-right: 30px;
+}
